@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header,.header1 , .header2, .header3{
+    height:50vh;
+    background-color: aqua;
+    display: inline-block;
+    position: relative;
+    color: black;
+    width:100%;
+    margin: 10px;
+
+}
+.heading{
+    background-color:greenyellow ;
+    color:black;
+    font-size: 40px;
+    font-weight:900 ;
+    text-align: center;
+    margin: 10px;
+    padding:20px;
+
+}
+.header1{
+    background-color:greenyellow ;
+
+}
+.header2{
+    background-color: hsl(103, 11%, 88%);
+
+}
+.aligncenter{
+    text-align: center;
+}
+.timer, .timer1, .timer2, .time{
+    font-size: 20px;
+    position: absolute;
+    top :50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-weight: 700;
+    text-shadow:-2px -3px  white;
+    /* margin:5px ; */
+}
+/* .box{
+    
+} */
+.countbox, .countbox1,.countbox2, .countdown{
+    position: absolute;
+    top :40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-weight: 700;
+    
+   
+}
+.ul li, .ul1 li, .ul2 li{
+    /* text-decoration: none; */
+    float: left;
+    text-decoration: none;
+    list-style: none;
+     margin:2px;
+    
+}
+#list{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+     margin:2px;
+}
